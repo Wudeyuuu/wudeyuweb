@@ -3,10 +3,10 @@ const https = require("https");
 const fs = require("fs");
 
 const options = {
-    key: fs.readFileSync("priv/ca.www.serveo.net.key.pem"),
-    cert: fs.readFileSync("cert/ca.www.serveo.net.cert.pem"),
+    key: fs.readFileSync("priv/ca.www.wudeyu.ip-ddns.com.key.pem"),
+    cert: fs.readFileSync("certs/ca.www.wudeyu.ip-ddns.com.cert.pem"),
     ca: [
-        fs.readFileSync("cert/ca.www.cert.pem")
+        fs.readFileSync("certs/ca.www.cert.pem")
     ]
 };
 
